@@ -1,4 +1,4 @@
-# python-slurm-job
+# python-slurmenv
 
 The goal of this package is to provide an importable Enum that contains
 all data provided as environment variables.
