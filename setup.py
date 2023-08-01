@@ -3,7 +3,7 @@
 from distutils.core import setup
 
 _pkg = {
-    "name": "python-slurm-job",
+    "name": "python-slurmenv",
     "version": "0.0.1",
     "author": "Shane Hutter",
     "author_email": "shane@intentropy.au",
