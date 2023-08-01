@@ -146,3 +146,9 @@ class SlurmEnv( Enum ):
     slurm_topology_addr = environ.get( "SLURM_TOPOLOGY_ADDR" )
     slurm_topology_addr_pattern = environ.get( "SLURM_TOPOLOGY_ADDR_PATTERN" )
     slurmd_nodename = environ.get( "SLURMD_NODENAME" )
+
+
+if __name__ == '__main__':
+    for attr in SlurmEnv:
+        print( f"{attr.name}\t{attr.value}" )
+    print( SlurmEnv.slurmd_nodename.name )
